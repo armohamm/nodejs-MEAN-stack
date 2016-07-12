@@ -1,4 +1,11 @@
-# MEAN Boilerplate Overview
+# THIS VERSION EXISTS ONLY FOR THE SAMPLE ON BLUEMIX. IT ADDS ERROR REPORTING, LOGGING AND OTHER USERFUL FEATURES TO TRACK THE APP.
+
+TODO:
+
+- Integrate NewRelic Monitoring
+- Create function to delete MongoDB entries every 24hrs
+
+### MEAN Boilerplate Overview
 
 <img src="https://dl.dropboxusercontent.com/s/vd367cadrk97zjg/MEAN%20Logo.jpg">
 

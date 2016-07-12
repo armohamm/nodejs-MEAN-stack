@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "MEAN (Mongo, Express, Angular, Node.js) Boilerplate for IBM Bluemix",
   "main": "server.js",
-  "engines" : { "node" : ">=4.4.5" },
+  "engines": {
+    "node": ">=4.4.5"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -38,6 +40,7 @@
     "express-session": "^1.12.1",
     "express-validator": "^2.18.0",
     "mongoose": "^4.2.6",
+    "newrelic": "^1.28.2",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0"
   },
