@@ -2,8 +2,8 @@
 
 TODO:
 
-- Integrate NewRelic Monitoring
-- Create function to delete MongoDB entries every 24hrs
+- Added papertrail logging service (Github Issue) 
+- Create function to delete MongoDB entries every 24hrs (Github Issue) 
 
 ### MEAN Boilerplate Overview
 

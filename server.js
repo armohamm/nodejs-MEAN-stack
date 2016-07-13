@@ -5,6 +5,8 @@
 /********************************
 Dependencies
 ********************************/
+require('newrelic'); // place first in file.
+
 var express = require('express'),// server middleware
     mongoose = require('mongoose'),// MongoDB connection library
     bodyParser = require('body-parser'),// parse HTTP requests
@@ -21,8 +23,6 @@ var express = require('express'),// server middleware
     appEnv = cfenv.getAppEnv(),// Grab environment variables
 
     User = require('./server/models/user.model');
-
-    require('newrelic');
     
 
 /********************************
