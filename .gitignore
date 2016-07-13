@@ -6,6 +6,8 @@ Thumbs.db
 .env
 TODO.md
 mongodb.conf
+mongodb
+npm-debug.log
 .bluemix
 
 # Node and related ecosystem
