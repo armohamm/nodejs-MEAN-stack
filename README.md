@@ -1,8 +1,6 @@
 # THIS VERSION EXISTS ONLY FOR THE SAMPLE ON BLUEMIX. IT ADDS ERROR REPORTING, LOGGING AND OTHER USERFUL FEATURES TO TRACK THE APP.
 
-TODO:
-
-- Added papertrail logging service (Github Issue) 
+##### TODO:
 - Create function to delete MongoDB entries every 24hrs (Github Issue) 
 
 ### MEAN Boilerplate Overview

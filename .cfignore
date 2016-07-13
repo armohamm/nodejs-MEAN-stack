@@ -5,4 +5,6 @@ node_modules/
 data
 .idea
 mongodb.conf
+mongodb
+npm-debug.log
 .bluemix

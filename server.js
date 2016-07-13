@@ -5,7 +5,15 @@
 /********************************
 Dependencies
 ********************************/
-require('newrelic'); // place first in file.
+var cfenv = require('cfenv'),// Cloud Foundry Environment Variables
+    appEnv = cfenv.getAppEnv();// Grab environment variables
+    
+    if(appEnv.isLocal){
+        require('dotenv').load();// Loads .env file into environment
+    }
+    else{
+        require('newrelic'); // place as close to first in file as possible. Only want to run this when in production, not localhost.
+    }
 
 var express = require('express'),// server middleware
     mongoose = require('mongoose'),// MongoDB connection library
@@ -25,12 +33,12 @@ var express = require('express'),// server middleware
     User = require('./server/models/user.model');
     
 
-/********************************
-Local Environment Variables
- ********************************/
-if(appEnv.isLocal){
-    require('dotenv').load();// Loads .env file into environment
-}
+// /********************************
+// Local Environment Variables
+//  ********************************/
+// if(appEnv.isLocal){
+//     require('dotenv').load();// Loads .env file into environment
+// }
 
 /********************************
  MongoDB Connection
