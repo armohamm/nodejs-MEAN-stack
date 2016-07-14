@@ -32,14 +32,7 @@ var express = require('express'),// server middleware
 
     User = require('./server/models/user.model');
     
-
-// /********************************
-// Local Environment Variables
-//  ********************************/
-// if(appEnv.isLocal){
-//     require('dotenv').load();// Loads .env file into environment
-// }
-
+    
 /********************************
  MongoDB Connection
  ********************************/

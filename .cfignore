@@ -8,3 +8,4 @@ mongodb.conf
 mongodb
 npm-debug.log
 .bluemix
+.eslintrc.json

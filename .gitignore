@@ -9,6 +9,7 @@ mongodb.conf
 mongodb
 npm-debug.log
 .bluemix
+.eslintrc.json
 
 # Node and related ecosystem
 # ==========================
